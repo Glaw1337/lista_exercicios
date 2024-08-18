@@ -9,7 +9,14 @@ largura = float(input('Qual a largura da sua cozinha? '))
 altura = float(input('Qual a altura da sua cozinha? '))
 #Processamento
 def calcular_quantidade_de_caixas(comprimento, largura, altura):
-    area = comprimento * largura
-    
+    area1 = comprimento * largura
+    area2 = largura * altura
+    area_total = 2 * (area1 + area2)
+    cobertura_azulejo = 1.5
+    caixas_azulejo = area_total / cobertura_azulejo
+    return caixas_azulejo
+
+caixas_necessarias = calcular_quantidade_de_caixas(comprimento, largura, altura)
 
 #Saida
+print(f'Será necessário {caixas_necessarias} caixas de azulejos para cobrir todas as paredes.')
