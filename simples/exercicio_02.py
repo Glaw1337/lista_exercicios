@@ -1,5 +1,5 @@
-'''Escreva um programa para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor
- correspondente em graus Celsius. (C = (F-32) * 5 / 9)'''
+#Escreva um programa para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor
+#correspondente em graus Celsius. (C = (F-32) * 5 / 9)
 
 #Entrada 
 Fah = float(input('Digite a temperatura: '))
