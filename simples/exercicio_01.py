@@ -9,3 +9,4 @@ area = PI * (raio * raio)
 print('A area do circulo é:',area)
 #print('A area do circulo é: '+ str(area))
 
+#Lista simples tem o intuito de usar o raciocínio lógico
