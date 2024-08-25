@@ -4,13 +4,11 @@
 valor = int(input("Insira um numero: "))
 
 #Processamento
-reposta = ''
-if valor >= 0:
-    valor = "Positivo"
-else:
-    valor < 0
-    valor = "Negativo"    
-
-
+def IdentificarNumero(ValorNum):
+    if ValorNum < 0:
+        return "negativo"
+    else:
+        return "positivo"
+numero = IdentificarNumero(valor)    
 #Saída
-print(f"Seu número é {reposta}")
+print(f"Seu número é {numero}")
