@@ -8,19 +8,19 @@ valor2 = int(input("Insira o segundo número: "))
 valor3 = int(input("Insira o terceiro número: "))
 reposta = ""
 valorTemp = 0
-# if( valor1 > valor2 ):
-#     valorTemp = valor2
-#     valor2 = valor1
-#     valor1 = valorTemp
-# if( valor1 > valor3 ) :
-#     valorTemp = valor3
-#     valor3 = valor1
-#     valor1 = valorTemp
-# if( valor2 > valor3 ):
-#     valorTemp = valor3
-#     valor3 = valor2  
-#     valor2 = valorTemp
-# print(valor1, valor2, valor3)
+if( valor1 > valor2 ):
+    valorTemp = valor2
+    valor2 = valor1
+    valor1 = valorTemp
+if( valor1 > valor3 ) :
+    valorTemp = valor3
+    valor3 = valor1
+    valor1 = valorTemp
+if( valor2 > valor3 ):
+    valorTemp = valor3
+    valor3 = valor2  
+    valor2 = valorTemp
+print(valor1, valor2, valor3)
 
 
 
