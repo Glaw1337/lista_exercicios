@@ -3,22 +3,23 @@
 #        exercicio importante, refazer sempre que possivel 
 #        (CTRL + ;) adiciona comentario
 
-valor1 = int(input("Insira o primeiro número: "))
-valor2 = int(input("Insira o segundo número: "))
-valor3 = int(input("Insira o terceiro número: "))
-reposta = ""
-valorTemp = 0
-# if( valor1 > valor2 ):
-#     valorTemp = valor2
-#     valor2 = valor1
-#     valor1 = valorTemp
-# if( valor1 > valor3 ) :
-#     valorTemp = valor3
-#     valor3 = valor1
-#     valor1 = valorTemp
-# if( valor2 > valor3 ):
-#     valorTemp = valor3
-#     valor3 = valor2  
-#     valor2 = valorTemp
-# print(valor1, valor2, valor3)
+valores = []
+valores.append(int(input("Insira o primeiro número: ")))
+valores.append(int(input("Insira o segundo número: ")))
+valores.append(int(input("Insira o terceiro número: ")))
 
+
+if(valores[0] > valores[1] ):
+    valorTemp = valores[1]
+    valores[1] = valores[0]
+    valores[0] = valorTemp
+if(valores[0] > valores[2] ):
+    valorTemp = valores[2]
+    valores[2] = valores[0]
+    valores[0] = valorTemp
+if(valores[1] > valores[2] ):
+    valorTemp = valores[2]
+    valores[2] = valores[1]
+    valores[1] = valorTemp
+
+print(valores)
